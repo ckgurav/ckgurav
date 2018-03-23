@@ -4,10 +4,10 @@ import "fmt"
 
 func helloWorld() func() string{
 
-	string:=func() string{
+	strng:=func() string{
 		return fmt.Sprint("\n Hello World, from inside function")
 	}
-	return string
+	return strng
 }
 
 func main(){
