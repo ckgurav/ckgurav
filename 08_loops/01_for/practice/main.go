@@ -1,16 +1,13 @@
 package main
 
-import (
-	"fmt"
-)
-
+import "fmt"
+const a1=7
+const b1=7
+var arr [a1][b1]int
+var x,t,i,j = 0,0,0,0
 
 
 func main(){
-	const a1=30
-	const b1=25
-	var arr [a1][b1]int
-	var x,t,i,j int = 0,0,0,0
 	a := a1
 	b:=b1
 	for arr[i][t] ==0{
@@ -28,6 +25,7 @@ func main(){
 			for i = t + 1; i < a; i++ {
 				arr[i][j] = x
 				fmt.Printf("2a[%d][%d]=%d\t", i, j, arr[i][j])
+
 				x++
 			}
 			i--
