@@ -11,4 +11,5 @@ func main()  {
 		mySlice=append(mySlice,i)
 		fmt.Println( len(mySlice),cap(mySlice))
 	}
+
 }
