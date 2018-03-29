@@ -15,5 +15,7 @@ fmt.Println(mapExample,len(mapExample))
 	//delete(mapExample,"a1")
 	i,j:=mapExample["a1"]
 
+
+
 	fmt.Println(i,j)
 }
