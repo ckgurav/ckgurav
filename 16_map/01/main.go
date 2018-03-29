@@ -12,7 +12,7 @@ fmt.Println(mapExample,len(mapExample))
 	for _,V1:=range (mapExample){
 		fmt.Println(V1)
 	}
-	delete(mapExample,"a1")
+	//delete(mapExample,"a1")
 	i,j:=mapExample["a1"]
 
 	fmt.Println(i,j)
