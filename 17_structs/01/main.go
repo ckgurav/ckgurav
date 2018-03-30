@@ -2,6 +2,8 @@ package main
 
 import "fmt"
 
+type  foo int
+
 type student struct {
 	name string
 	age int
@@ -30,8 +32,11 @@ func main()  {
 	fmt.Println(s1.student)
 	fmt.Println(s1.student.name)
 	s1.age = 33
+	var s2 foo
+	s2 = 100
 	fmt.Println(s1.age)
 	fmt.Println(s1.std)
-
+	s3:=0
+	fmt.Printf("S2 Type:%t and Value %v, Type of S1:%t",s2,s2,s3)
 
 }
