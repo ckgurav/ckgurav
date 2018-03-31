@@ -26,6 +26,7 @@ func main()  {
 		"Shahu High",
 
 	}
+	s7:=school{student{"lmn",11,10},"Jaysnighrao"}
 
 	fmt.Println(s1.name)
 	fmt.Println(s1)
@@ -37,6 +38,21 @@ func main()  {
 	fmt.Println(s1.age)
 	fmt.Println(s1.std)
 	s3:=0
-	fmt.Printf("S2 Type:%t and Value %v, Type of S1:%t",s2,s2,s3)
+	fmt.Printf("S2 Type:%T and Value %v, Type of S1:%T",s2,s2,s3)
+
+	s4:=s2+foo(s3)
+
+	fmt.Printf("\n S4 type:%T and value:%v\n",s4,s4)
+
+	var s5 school
+	s5.age=10
+
+	fmt.Println("S5",s5.age," ",s5)
+
+	s6:=school{}
+
+	s6.student.name="abc"
+	fmt.Println(s7)
+
 
 }
