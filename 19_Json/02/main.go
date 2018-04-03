@@ -18,6 +18,11 @@ func main() {
 
 	fmt.Println(bs)
 	fmt.Println(string(bs))
+	p2:=Person{}
+
+	json.Unmarshal(bs,&p2)
+
+	fmt.Println("unmarsheld:",p2)
 
 }
 
