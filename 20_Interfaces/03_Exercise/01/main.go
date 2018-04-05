@@ -54,11 +54,25 @@ func  main()  {
 
 	//Method 3
 	p2:=people{"Chandan","Amit","Nikita","Punith", "Robert"}
-
 	sort.StringSlice(p2).Sort()
 	b=sort.StringsAreSorted(p2)
 	fmt.Println(b)
 	fmt.Println(p2)
+//Method 4
+	p3:=people{"Chandan","Amit","Nikita","Punith", "Robert"}
+	sort.Sort(sort.StringSlice(p3))
+	sort.StringSlice(p3).Sort()
+	b=sort.StringsAreSorted(p3)
+	fmt.Println(b)
+	fmt.Println(p3)
+
+//Method 5
+	p4:=people{"Chandan","Amit","Nikita","Punith", "Robert"}
+	sort.Strings(p4)
+	sort.StringSlice(p4).Sort()
+	b=sort.StringsAreSorted(p4)
+	fmt.Println(b)
+	fmt.Println(p4)
 
 
 	A1:=Age{3,21,1,5,2,445,1,332,54,22}
