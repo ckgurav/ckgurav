@@ -9,5 +9,4 @@ func main() {
 	fmt.Printf("\n%T",test)
 	fmt.Println(test.(string))
 	fmt.Printf("\n%T",test.(string))
-
 }
