@@ -4,8 +4,8 @@ import "fmt"
 
 func main(){
 
-	foo()
-	bar()
+	go foo()
+	go bar()
 
 }
 
