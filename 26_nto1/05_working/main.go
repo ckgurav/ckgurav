@@ -16,13 +16,11 @@ func main() {
 		}()
 	}
 
-
 	go func() {
 		for i:=0;i<n;i++{
 			<-done
-			<-done
-			close(c)
 		}
+		close(c)
 	}()
 
 	for n:=range c{
