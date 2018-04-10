@@ -14,7 +14,7 @@ func main() {
 		close(c)
 	}()
 
-	for n:=range c{
+	for n:=range(c){
 		fmt.Println("Outside",n)
 	}
 }
