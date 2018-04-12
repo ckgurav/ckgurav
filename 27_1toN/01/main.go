@@ -29,11 +29,6 @@ func main() {
 		}
 		done<-true
 	}()
-
-	//go func() {
 		<-done
 		<-done
-		//close(c)
-	//}()
-
 }
