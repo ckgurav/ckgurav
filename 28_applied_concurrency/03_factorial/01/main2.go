@@ -22,7 +22,7 @@ func main() {
 		}
 	}()
 	if no==0{
-		fmt.Println("final",n1*n2)
+		//fmt.Println("final",n1*n2)
 	}
 
 }
